@@ -1,5 +1,5 @@
 # To Do List - In Memory
-CRUD App With Real file structure
+CRUD App With Real File Structure
 
 - [To Do List - In Memory](#to-do-list---in-memory)
   - [Starter Code](#starter-code)
@@ -11,7 +11,7 @@ CRUD App With Real file structure
 - [Bonus: Get a single `To Do`](#bonus-get-a-single-to-do)
 
 
-You are going to make a `To Do` List list app using the CRUD actions.
+You are going to make a `To Do` list app using the CRUD actions.
 
 - Create = Create a new `To Do`
 - Read = List out all the existing `To Dos`
@@ -35,7 +35,7 @@ In Express there are *many* ways to structure an app, this is Marcy's. While you
 
 Now, unlike the last assignment, we're not going to be as explicit in our instructions. We'll explain the basics of what we want, but for *exact* details you can check the tests (or play around with the frontend).
 
-So, use what you learned this week, start in `package.json` and start reading the code! When you're ready, run `npm i` and `npm start` (or `npm run test:w` for repeated testing)
+Use what you learned this week, start in `package.json` and start reading the code! When you're ready, run `npm i` and `npm start` (or `npm run test:w` for repeated testing)
 
 > Still no DB yet, so our data will only persist as long as our server is running!
 
@@ -73,4 +73,4 @@ If we want to uncheck a `To Do` then we'd hit the same route, but with `isDone` 
 Unlike completion, which just renders a crossed out `To Do`, `DELETE /api/to-dos/2` would *totally* remove the `To Do` item from our list.
 
 # Bonus: Get a single `To Do`
-If you have perfect test completions, try adding one more route. There won't be a frontend GUI for it, but try adding a `GET /api/to-dos/:id` route. It should return a `To Do`, or return a `404`.
+If you have perfect test completions, try adding one more route. There won't be a frontend GUI for it, but try making a `GET /api/to-dos/:id` route. It should return a `To Do`, or return a `404`.
