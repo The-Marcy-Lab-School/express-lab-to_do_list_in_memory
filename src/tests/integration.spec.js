@@ -1,7 +1,7 @@
 const request = require('supertest');
 const app = require('../server');
 
-describe('Modify Tests', () => {
+describe('Integrations Tests', () => {
   afterEach(async () => request(app).delete('/api/to-dos'));
 
   it('GET /api/to-dos serves empty array if no "to dos"', async () => {

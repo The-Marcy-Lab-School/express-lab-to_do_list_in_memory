@@ -1,7 +1,7 @@
-# To Do List
-CRUD app - Real file structure
+# To Do List - In Memory
+CRUD App With Real file structure
 
-- [To Do List](#to-do-list)
+- [To Do List - In Memory](#to-do-list---in-memory)
   - [Starter Code](#starter-code)
   - [Project Goals](#project-goals)
 - [Question 1: List all `To Dos`](#question-1-list-all-to-dos)
